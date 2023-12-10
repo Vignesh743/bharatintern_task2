@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog Website</title>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <main>
+        <div class="content">
+            <h2>Latest Posts</h2>
+            <div id="blog-posts">
+                <!-- Blog posts will be dynamically loaded here -->
+            </div>
+        </div>
+        <aside class="management-tool">
+            <h2>Content Management Tool</h2>
+            <form id="blog-form">
+                <input type="text" id="title" placeholder="Title">
+                <textarea id="content" placeholder="Write your blog post..."></textarea>
+                <input type="file" id="image" accept="image/*">
+                <button type="submit">Publish</button>
+            </form>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

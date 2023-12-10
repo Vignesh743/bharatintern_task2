@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.content {
+    flex: 2;
+    padding: 1rem;
+}
+
+.management-tool {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+img{
+    width: 70%;
+    align-items:center;
+}
+/* Add more styling as needed */
+
